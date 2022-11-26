@@ -1,4 +1,3 @@
-import numpy as np 
 contador = qntIdade = qntPess50y = mediaAltura = pPeso = 0
 
 idade = []
