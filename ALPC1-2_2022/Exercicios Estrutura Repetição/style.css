@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+}
+
+.botao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 10px 10px 50px rgb(59, 59, 59);
+    transition: transform 0.5s, color 0.5s, background-color 0.5s;
+    color: aliceblue;
+    background-color: aquamarine;
+    animation-name: "ping-pong";
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.botao2:hover{
+    transform: translateY(-30px);
+    background-color: aqua;
+    color: black;
+    
+}
+
+@keyframes ping-pong{
+    from{
+        transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(40px);
+    }
+}

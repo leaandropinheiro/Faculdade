@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+                
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+}
+body{
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.bomba{
+    padding: 10px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,h2{
+    color: white;    
+}
+
+p{
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+p[foo]{
+    padding: 10px;
+    background-color: red;
+    color: white;   
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+
+}

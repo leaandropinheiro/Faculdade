@@ -1,0 +1,108 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham', sans-serif;
+}
+
+.full{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 80%;
+  min-width: 10%;
+  margin-left: 30%;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  max-width: 80%;
+}
+.logo{
+  padding-right: 20px;
+}
+
+.cabecalho-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.cabecalho-texto{
+  font-size: 20px;
+  padding: 20px;
+  color: #005F37;
+}
+
+.cabecalho-item-titulo{
+  font-size: 20px;
+}
+
+table, th, td{
+  border: 1px solid #005F37;
+  border-collapse:collapse;
+  padding: 5px;
+}
+
+.titulo-mes{
+  font-size: 20px;
+  color: #005F37;  
+}
+
+.calendario{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: top;
+  max-width: 80%;
+
+}
+
+
+.meses{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+
+.avisos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding-left: 20px;
+}
+
+.texto-avisos{
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.rodape{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #8dbe48;
+  margin-left: 0;
+}
+
+.rodape-item{
+
+}
+
+.rodape-texto{
+  color: #fff;
+}
